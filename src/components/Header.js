@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Undergraduate Reflections</h1>
         <p>
-          A case study of the Harvard undergradute experience during Fall 2020
+          A case of the Harvard Undergraduate experience during 2020–2021
 
         </p>
       </div>
@@ -44,7 +44,7 @@ const Header = props => (
           Workload and Return to Campus
           </button>
         </li>
-      
+
       </ul>
     </nav>
   </header>
