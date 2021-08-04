@@ -8,13 +8,10 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Undergraduate Reflections</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          A case study of the Harvard undergradute experience during Fall 2020
+
         </p>
       </div>
     </div>
@@ -26,7 +23,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Lectures and Sections
           </button>
         </li>
         <li>
@@ -35,7 +32,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Capstones and Creative Projects
           </button>
         </li>
         <li>
@@ -44,18 +41,10 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+          Workload and Return to Campus
           </button>
         </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
-          </button>
-        </li>
+      
       </ul>
     </nav>
   </header>
