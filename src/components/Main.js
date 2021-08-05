@@ -32,6 +32,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <h3>JT, class of 2023:</h3>
           <p>
             Fall 2020 was certainly not the sophomore fall I had initially expected. I never would have imagined that I would be rolling out of bed 5 minutes before classes started each day, moving the two feet from my bed to my desk, or that I would be using Facetime and Zoom like my life depended on them. Yet, although it may not have been an ideal semester of college, I truly learned so much, both in classes, and just from being at home and having more time to myself. For classes, I put in more work than ever before. I found that I was really throwing myself into my courses, determined to get as much from them as I could, especially because I was taking classes that I really enjoyed.
           </p>
@@ -61,6 +62,8 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <h3>JT, class of 2023:</h3>
+
           <p>
             I did a final capstone project where we created videos and presentations to suggest changes to faculty that would improve social belonging at Harvard. I enjoyed actually communicating what we had learned and how it could be applied to Harvard, and it increased my confidence in my communication skills.
 
